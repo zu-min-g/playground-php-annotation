@@ -1,0 +1,20 @@
+{
+    "name": "zu-min-g/playground-php-annotation",
+    "type": "project",
+    "require": {
+        "doctrine/annotations": "^1.11"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zu-min-g",
+            "email": "68736447+zu-min-g@users.noreply.github.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Annotations\\" : "Annotations/",
+            "Classes\\" : "Classes/"
+        }
+    }
+}
